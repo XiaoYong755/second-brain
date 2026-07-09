@@ -1,61 +1,75 @@
 # Second Brain
 
-一个纯本地、Markdown 优先的第二大脑，兼容 Obsidian，但不依赖 Obsidian。
+一个纯本地、Markdown 优先的第二大脑。
 
-这套结构以 `Wiki` 为核心，参考 Andrej Karpathy 的 LLM wiki 思路：把真正重要的知识沉淀成长期维护的页面，而不是停留在摘抄和收藏。
+它兼容 Obsidian，但不依赖 Obsidian；核心思路参考 Andrej Karpathy 的 LLM wiki：把真正重要的知识沉淀成长期维护的页面，而不是停留在收藏和摘抄。
+
+## What This Is
+
+这套库适合你在一个地方同时承接三类东西：
+
+- `LLM 学习`
+- `个人知识`
+- `正在推进的项目`
+
+它不是单纯的资料仓库，更像一个会随着你持续写、持续想、持续做事而长大的本地知识系统。
+
+## Start Here
+
+如果你今天第一次打开它，按这个顺序就够了：
+
+1. 打开 [Home](/Users/taobao/Desktop/第二大脑/10%20Wiki/Home.md)
+2. 看一眼 [LLM Index](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/LLM%20Index.md)
+3. 有碎片想法时，用 [_templates/inbox-note.md](/Users/taobao/Desktop/第二大脑/_templates/inbox-note.md)
+4. 在推进具体事情时，更新 [Second Brain Bootstrap](/Users/taobao/Desktop/第二大脑/20%20Projects/second-brain-bootstrap/project.md)
+
+## How To Use It
+
+一句话判断每条新信息该去哪里：
+
+- 没消化完：`00 Inbox/`
+- 是外部资料：`40 Library/`
+- 是稳定理解：`10 Wiki/`
+- 是当前推进：`20 Projects/` 或 `30 Journal/`
+
+这套系统最关键的不是“记下来”，而是把值得留下的东西逐渐提炼进 `Wiki`。
 
 ## Structure
 
 - `00 Inbox/`
-  - 碎片输入入口，先收再整理
+  - 所有碎片入口，先收进来再整理
 - `10 Wiki/`
-  - 长期知识页，尤其是 LLM 相关认知地图
+  - 长期知识页，是整个系统的核心
 - `20 Projects/`
-  - 正在推进的项目、决策、进展和复盘
+  - 正在推进的项目、决策、行动和复盘
 - `30 Journal/`
-  - 时间流记录，承接当天或当周的思考
+  - 时间流记录，承接每天或每周的上下文
 - `40 Library/`
-  - 外部资料笔记，如论文、文章、书、课程
+  - 外部资料笔记，比如论文、文章、书、课程
 - `90 Archive/`
-  - 已完成或过时内容
+  - 已完成或暂时不用的内容
 - `_templates/`
-  - 常用笔记模板
+  - 常用模板
 - `_assets/`
-  - 图片、PDF、截图、附件
+  - 图片、PDF、截图和附件
 
-## Core Flow
+## Best Entry Points
 
-- 碎片内容先放 `00 Inbox/`
-- 明确的外部资料先放 `40 Library/`
-- 值得长期保留的理解提炼进 `10 Wiki/`
-- 和现实推进强相关的内容进入 `20 Projects/` 或 `30 Journal/`
+- [Home](/Users/taobao/Desktop/第二大脑/10%20Wiki/Home.md)
+- [LLM Index](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/LLM%20Index.md)
+- [Inbox Example](/Users/taobao/Desktop/第二大脑/00%20Inbox/2026-07-09-welcome-capture.md)
+- [Wiki Example: In-Context Learning](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/Concepts/in-context-learning.md)
+- [Paper Example: Attention Is All You Need](/Users/taobao/Desktop/第二大脑/40%20Library/Papers/attention-is-all-you-need.md)
 
-一句话判断：
+## Weekly Rhythm
 
-- 没消化完：`Inbox`
-- 是资料：`Library`
-- 是理解：`Wiki`
-- 是执行：`Projects` / `Journal`
-
-## Start Today
-
-1. 打开 [10 Wiki/Home.md](/Users/taobao/Desktop/第二大脑/10%20Wiki/Home.md)
-2. 看一眼 [10 Wiki/LLM/LLM Index.md](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/LLM%20Index.md)
-3. 有碎片想法时，用 [_templates/inbox-note.md](/Users/taobao/Desktop/第二大脑/_templates/inbox-note.md)
-4. 读论文时，在 `40 Library/Papers/` 建资料笔记
-5. 当某个主题越来越重要，就把它提炼成 `10 Wiki/` 下的长期页面
-
-## Weekly Maintenance
+每周只做一轮轻整理就够：
 
 - 清一遍 `Inbox`
 - 把值得保留的内容提炼进 `Wiki`
 - 给项目补关键决策和下一步
-- 在 `Journal` 留下本周回顾
+- 在 `Journal` 留一条简短回顾
 
-## First Reference Pages
+## Guiding Idea
 
-- [10 Wiki/Home.md](/Users/taobao/Desktop/第二大脑/10%20Wiki/Home.md)
-- [10 Wiki/LLM/LLM Index.md](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/LLM%20Index.md)
-- [10 Wiki/LLM/Concepts/in-context-learning.md](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/Concepts/in-context-learning.md)
-- [40 Library/Papers/attention-is-all-you-need.md](/Users/taobao/Desktop/第二大脑/40%20Library/Papers/attention-is-all-you-need.md)
-- [20 Projects/second-brain-bootstrap/project.md](/Users/taobao/Desktop/第二大脑/20%20Projects/second-brain-bootstrap/project.md)
+`Library` 记录你看过什么，`Wiki` 记录你现在怎么理解它，`Projects` 和 `Journal` 让这套知识系统和现实工作连起来。
