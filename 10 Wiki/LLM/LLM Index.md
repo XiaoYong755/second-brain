@@ -47,12 +47,12 @@
 
 ## Next Pages To Create
 
-- `transformer`
-- `attention`
-- `tokenization`
-- `pretraining`
-- `post-training`
-- `reasoning`
+- [Transformer](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/Concepts/transformer.md)
+- [Attention](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/Concepts/attention.md)
+- [Tokenization](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/Concepts/tokenization.md)
+- [Pretraining](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/Concepts/pretraining.md)
+- [Post-Training](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/Concepts/post-training.md)
+- [Reasoning](/Users/taobao/Desktop/第二大脑/10%20Wiki/LLM/Concepts/reasoning.md)
 
 ## Promotion Rule
 
